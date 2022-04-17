@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <form action="">
+        <div>
+            <input type="text" name="name" placeholder="Name">
+            <input type="password" name="password" placeholder="Password">
+        </div>
+        <div>
+            Favorite color?
+            <input name="color" type="radio" value="red"> Red
+            <input name="color" type="radio" value="grean"> Green
+            <input name="color" type="radio" value="blue"> Blue
+            <input name="color" type="radio" value="other"> Other
+        </div>
+        <div>
+            <input name="country" list="countries" placeholder="Country">
+            <datalist id="countries">
+                <option value="Egypt">
+                <option value="US">
+                <option value="QTR">
+                <option value="GER">
+            </datalist>
+        </div>
+        <button type="submit">submit</button>
+    </form>
+    <p>
+        <a href="index.html">Home</a>
+    </p>
+</body>
+</html>

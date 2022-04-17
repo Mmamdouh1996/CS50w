@@ -1,0 +1,24 @@
+form{
+    text-align: center;
+    padding: 200px;
+    margin: 5px;
+}
+
+.input1{
+    border-radius: 25px;
+    width: 400px;
+    height: 30px;
+}
+.input2{
+    border-radius: 10px;
+    width: auto;
+    height: 30px;
+}
+.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
